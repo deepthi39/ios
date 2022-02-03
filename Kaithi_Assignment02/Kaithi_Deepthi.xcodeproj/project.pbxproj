@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2483D86D27A5D7870071FCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D86C27A5D7870071FCE4 /* AppDelegate.swift */; };
+		2483D86F27A5D7870071FCE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D86E27A5D7870071FCE4 /* SceneDelegate.swift */; };
+		2483D87127A5D7870071FCE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D87027A5D7870071FCE4 /* ViewController.swift */; };
+		2483D87427A5D7870071FCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2483D87227A5D7870071FCE4 /* Main.storyboard */; };
+		2483D87627A5D7880071FCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2483D87527A5D7880071FCE4 /* Assets.xcassets */; };
+		2483D87927A5D7880071FCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2483D87727A5D7880071FCE4 /* LaunchScreen.storyboard */; };
+		2483D88427A5D7880071FCE4 /* Kaithi_DeepthiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D88327A5D7880071FCE4 /* Kaithi_DeepthiTests.swift */; };
+		2483D88E27A5D7880071FCE4 /* Kaithi_DeepthiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D88D27A5D7880071FCE4 /* Kaithi_DeepthiUITests.swift */; };
+		2483D89027A5D7880071FCE4 /* Kaithi_DeepthiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483D88F27A5D7880071FCE4 /* Kaithi_DeepthiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2483D88027A5D7880071FCE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2483D86127A5D7870071FCE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2483D86827A5D7870071FCE4;
+			remoteInfo = Kaithi_Deepthi;
+		};
+		2483D88A27A5D7880071FCE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2483D86127A5D7870071FCE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2483D86827A5D7870071FCE4;
+			remoteInfo = Kaithi_Deepthi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2483D86927A5D7870071FCE4 /* Kaithi_Deepthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaithi_Deepthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2483D86C27A5D7870071FCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2483D86E27A5D7870071FCE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2483D87027A5D7870071FCE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2483D87327A5D7870071FCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2483D87527A5D7880071FCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2483D87827A5D7880071FCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2483D87A27A5D7880071FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2483D87F27A5D7880071FCE4 /* Kaithi_DeepthiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kaithi_DeepthiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2483D88327A5D7880071FCE4 /* Kaithi_DeepthiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaithi_DeepthiTests.swift; sourceTree = "<group>"; };
+		2483D88927A5D7880071FCE4 /* Kaithi_DeepthiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kaithi_DeepthiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2483D88D27A5D7880071FCE4 /* Kaithi_DeepthiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaithi_DeepthiUITests.swift; sourceTree = "<group>"; };
+		2483D88F27A5D7880071FCE4 /* Kaithi_DeepthiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaithi_DeepthiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2483D86627A5D7870071FCE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D87C27A5D7880071FCE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D88627A5D7880071FCE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2483D86027A5D7870071FCE4 = {
+			isa = PBXGroup;
+			children = (
+				2483D86B27A5D7870071FCE4 /* Kaithi_Deepthi */,
+				2483D88227A5D7880071FCE4 /* Kaithi_DeepthiTests */,
+				2483D88C27A5D7880071FCE4 /* Kaithi_DeepthiUITests */,
+				2483D86A27A5D7870071FCE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2483D86A27A5D7870071FCE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2483D86927A5D7870071FCE4 /* Kaithi_Deepthi.app */,
+				2483D87F27A5D7880071FCE4 /* Kaithi_DeepthiTests.xctest */,
+				2483D88927A5D7880071FCE4 /* Kaithi_DeepthiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2483D86B27A5D7870071FCE4 /* Kaithi_Deepthi */ = {
+			isa = PBXGroup;
+			children = (
+				2483D86C27A5D7870071FCE4 /* AppDelegate.swift */,
+				2483D86E27A5D7870071FCE4 /* SceneDelegate.swift */,
+				2483D87027A5D7870071FCE4 /* ViewController.swift */,
+				2483D87227A5D7870071FCE4 /* Main.storyboard */,
+				2483D87527A5D7880071FCE4 /* Assets.xcassets */,
+				2483D87727A5D7880071FCE4 /* LaunchScreen.storyboard */,
+				2483D87A27A5D7880071FCE4 /* Info.plist */,
+			);
+			path = Kaithi_Deepthi;
+			sourceTree = "<group>";
+		};
+		2483D88227A5D7880071FCE4 /* Kaithi_DeepthiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2483D88327A5D7880071FCE4 /* Kaithi_DeepthiTests.swift */,
+			);
+			path = Kaithi_DeepthiTests;
+			sourceTree = "<group>";
+		};
+		2483D88C27A5D7880071FCE4 /* Kaithi_DeepthiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2483D88D27A5D7880071FCE4 /* Kaithi_DeepthiUITests.swift */,
+				2483D88F27A5D7880071FCE4 /* Kaithi_DeepthiUITestsLaunchTests.swift */,
+			);
+			path = Kaithi_DeepthiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2483D86827A5D7870071FCE4 /* Kaithi_Deepthi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2483D89327A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_Deepthi" */;
+			buildPhases = (
+				2483D86527A5D7870071FCE4 /* Sources */,
+				2483D86627A5D7870071FCE4 /* Frameworks */,
+				2483D86727A5D7870071FCE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaithi_Deepthi;
+			productName = Kaithi_Deepthi;
+			productReference = 2483D86927A5D7870071FCE4 /* Kaithi_Deepthi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2483D87E27A5D7880071FCE4 /* Kaithi_DeepthiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2483D89627A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_DeepthiTests" */;
+			buildPhases = (
+				2483D87B27A5D7880071FCE4 /* Sources */,
+				2483D87C27A5D7880071FCE4 /* Frameworks */,
+				2483D87D27A5D7880071FCE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2483D88127A5D7880071FCE4 /* PBXTargetDependency */,
+			);
+			name = Kaithi_DeepthiTests;
+			productName = Kaithi_DeepthiTests;
+			productReference = 2483D87F27A5D7880071FCE4 /* Kaithi_DeepthiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2483D88827A5D7880071FCE4 /* Kaithi_DeepthiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2483D89927A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_DeepthiUITests" */;
+			buildPhases = (
+				2483D88527A5D7880071FCE4 /* Sources */,
+				2483D88627A5D7880071FCE4 /* Frameworks */,
+				2483D88727A5D7880071FCE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2483D88B27A5D7880071FCE4 /* PBXTargetDependency */,
+			);
+			name = Kaithi_DeepthiUITests;
+			productName = Kaithi_DeepthiUITests;
+			productReference = 2483D88927A5D7880071FCE4 /* Kaithi_DeepthiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2483D86127A5D7870071FCE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2483D86827A5D7870071FCE4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2483D87E27A5D7880071FCE4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2483D86827A5D7870071FCE4;
+					};
+					2483D88827A5D7880071FCE4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2483D86827A5D7870071FCE4;
+					};
+				};
+			};
+			buildConfigurationList = 2483D86427A5D7870071FCE4 /* Build configuration list for PBXProject "Kaithi_Deepthi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2483D86027A5D7870071FCE4;
+			productRefGroup = 2483D86A27A5D7870071FCE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2483D86827A5D7870071FCE4 /* Kaithi_Deepthi */,
+				2483D87E27A5D7880071FCE4 /* Kaithi_DeepthiTests */,
+				2483D88827A5D7880071FCE4 /* Kaithi_DeepthiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2483D86727A5D7870071FCE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2483D87927A5D7880071FCE4 /* LaunchScreen.storyboard in Resources */,
+				2483D87627A5D7880071FCE4 /* Assets.xcassets in Resources */,
+				2483D87427A5D7870071FCE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D87D27A5D7880071FCE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D88727A5D7880071FCE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2483D86527A5D7870071FCE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2483D87127A5D7870071FCE4 /* ViewController.swift in Sources */,
+				2483D86D27A5D7870071FCE4 /* AppDelegate.swift in Sources */,
+				2483D86F27A5D7870071FCE4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D87B27A5D7880071FCE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2483D88427A5D7880071FCE4 /* Kaithi_DeepthiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2483D88527A5D7880071FCE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2483D89027A5D7880071FCE4 /* Kaithi_DeepthiUITestsLaunchTests.swift in Sources */,
+				2483D88E27A5D7880071FCE4 /* Kaithi_DeepthiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2483D88127A5D7880071FCE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2483D86827A5D7870071FCE4 /* Kaithi_Deepthi */;
+			targetProxy = 2483D88027A5D7880071FCE4 /* PBXContainerItemProxy */;
+		};
+		2483D88B27A5D7880071FCE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2483D86827A5D7870071FCE4 /* Kaithi_Deepthi */;
+			targetProxy = 2483D88A27A5D7880071FCE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2483D87227A5D7870071FCE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2483D87327A5D7870071FCE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2483D87727A5D7880071FCE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2483D87827A5D7880071FCE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2483D89127A5D7880071FCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2483D89227A5D7880071FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2483D89427A5D7880071FCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kaithi_Deepthi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kaithi_Deepthi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-Deepthi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2483D89527A5D7880071FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kaithi_Deepthi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kaithi_Deepthi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-Deepthi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2483D89727A5D7880071FCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-DeepthiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaithi_Deepthi.app/Kaithi_Deepthi";
+			};
+			name = Debug;
+		};
+		2483D89827A5D7880071FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-DeepthiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaithi_Deepthi.app/Kaithi_Deepthi";
+			};
+			name = Release;
+		};
+		2483D89A27A5D7880071FCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-DeepthiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaithi_Deepthi;
+			};
+			name = Debug;
+		};
+		2483D89B27A5D7880071FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Kaithi-DeepthiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kaithi_Deepthi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2483D86427A5D7870071FCE4 /* Build configuration list for PBXProject "Kaithi_Deepthi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2483D89127A5D7880071FCE4 /* Debug */,
+				2483D89227A5D7880071FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2483D89327A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_Deepthi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2483D89427A5D7880071FCE4 /* Debug */,
+				2483D89527A5D7880071FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2483D89627A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_DeepthiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2483D89727A5D7880071FCE4 /* Debug */,
+				2483D89827A5D7880071FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2483D89927A5D7880071FCE4 /* Build configuration list for PBXNativeTarget "Kaithi_DeepthiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2483D89A27A5D7880071FCE4 /* Debug */,
+				2483D89B27A5D7880071FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2483D86127A5D7870071FCE4 /* Project object */;
+}
